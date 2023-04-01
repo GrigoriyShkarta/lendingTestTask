@@ -1,0 +1,14 @@
+$yellow: #fee251;
+$bgcolor: #28272a;
+$greyText: #7b7f7f;
+$linecolor: #58585b;
+
+@mixin button-style {
+	height: 40px;
+	width: 130px;
+	background-color: $yellow;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bold;
+  }
